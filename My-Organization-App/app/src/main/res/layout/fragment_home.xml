@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment" >
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GITAM University"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:src="@drawable/a"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:text="GITAM is a host to many student activities both professional and cultural as well.GITAM University Science &amp; Activity CENTRE(GUSAC),Professional societies include ASME, SAE, ISTE, IEEE, CSI, IETE, IEI, ISOI and EWB. Cultural societies include Kalakriti, G-studio, G-Mag, E-Cell, NCC, NSS and other community services like Rotaract and Vivaan.[6]"
+        android:background="@color/cardview_dark_background"/>
+</LinearLayout>
